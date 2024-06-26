@@ -1,0 +1,81 @@
+.Modal-content {
+    min-height: 539px;
+}
+.Modal-header {
+    width: 400px;
+    padding: 20px 24px 16px 24px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+.close-wrpper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -webkit-box-align: center;
+    z-index: 1;
+    cursor: pointer;
+}
+.image-qrcode {
+    width: 175px;
+    height: 175px;
+}
+.Qr-content-container {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+}
+.h3-text {
+    margin: 32px 0px 24px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+    width: auto;
+    padding: 0px 24px;
+}
+.Qr-content {
+    width: 185px;
+    height: 185px;
+    transform: translate(-50% -50%);
+    border-radius: 4px;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid rgba(22, 24, 35, 0.2);
+}
+.img-dowload-1,
+.img-dowload {
+    width: 100%; /* Đảm bảo hình ảnh lấp đầy khung */
+    height: 100%;
+    object-fit: cover;
+}
+.img-dowload-1 {
+    background-size: 138px;
+
+    background-image: url(https://p16-ttug-sg.tiktokcdn.com/img/ttfe-malisg/tiktok_web/store-badge/en.png~296x0.image);
+}
+.dowload-container {
+    display: flex;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 400px;
+    padding: 24px 24px 60px;
+}
+.sub-title {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24px;
+}
+.dowload-content-container {
+    margin-top: 16px;
+    display: flex;
+    width: 288px;
+    flex-flow: wrap;
+    -webkit-box-pack: center;
+    justify-content: space-between;
+}

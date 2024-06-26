@@ -1,0 +1,35 @@
+// siderbar main
+.sidebar-container {
+    position: relative;
+    height: 100%;
+    width: 240px;
+    flex: 0 0 24px;
+}
+.main-siderbar {
+    overflow: hidden auto;
+    overscroll-behavior-y: contain;
+    perspective: 1px;
+    transform-style: preserve-3d;
+    perspective-origin: right top;
+    top: 60px;
+    bottom: 0;
+    width: 240px;
+    background: rgb(255, 255, 255);
+    position: fixed;
+    z-index: 99;
+}
+.content {
+    flex-shrink: 0;
+    padding: 20px 0px 26px 8px;
+    flex-direction: column;
+    -webkit-box-align: stretch;
+    align-items: stretch;
+    min-height: 100%;
+}
+.main-siderbar::-webkit-scrollbar {
+    width: 6px;
+    height: 691.691px;
+    transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, -1) scale(1.23032) translateZ(-0.230317px)
+        translateZ(-2px);
+    padding-left: 0;
+}

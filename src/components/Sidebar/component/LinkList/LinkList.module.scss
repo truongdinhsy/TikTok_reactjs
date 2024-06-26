@@ -1,0 +1,62 @@
+.h4-header {
+    font-size: 15px;
+    line-height: 20px;
+    margin-top: 0;
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 700;
+    cursor: default;
+}
+.link-container {
+    margin-bottom: 10px;
+}
+.alink-styles {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 13px;
+    font-weight: 600;
+    line-height: 16px;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+    cursor: pointer;
+
+    &:hover {
+        text-decoration: underline;
+    }
+}
+.more-container {
+    margin-bottom: 8px;
+    position: relative;
+}
+.more-span {
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 13px;
+    cursor: pointer;
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+.span-copy {
+    color: rgba(22, 24, 35, 0.5);
+    font-weight: 600;
+    line-height: 16px;
+    font-size: 13px;
+
+    display: inline-block;
+    margin-right: 6px;
+    margin-top: 5px;
+}
+
+.menu-setting {
+    width: fit-content;
+}
+
+.a-link {
+    display: block;
+    font-size: 20px;
+    line-height: 21px;
+    font-weight: 500;
+    text-align: start;
+    color: rgba(22, 24, 35, 1);
+}

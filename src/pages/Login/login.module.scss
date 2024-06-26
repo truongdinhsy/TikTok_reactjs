@@ -1,0 +1,116 @@
+.modal-content {
+    height: 642px;
+    width: 483px;
+}
+.page-Wrapper {
+    flex: 1 1 0%;
+}
+.login-container {
+    width: 363px;
+    margin: 64px auto auto;
+    padding: unset;
+}
+.home-container {
+    padding: unset;
+}
+.H2-title {
+    color: rgb(22, 24, 35);
+    font-size: 33px;
+    margin: 64px auto 16px;
+    text-align: center;
+}
+.login-ottion-container {
+    overflow-y: scroll;
+    padding: 10px 5px 2px 13px;
+    height: 368px;
+}
+
+.box-container {
+    height: 44px;
+    font-weight: 600;
+    font-size: 15px;
+    padding: 0px 12px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    cursor: pointer;
+    margin-bottom: 12px;
+    word-break: keep-all;
+    white-space: nowrap;
+    color: rgb(22, 24, 35);
+    border-color: rgba(22, 24, 35, 0.12);
+    border-style: solid;
+    border-width: 1px;
+}
+.box-container:hover {
+    border-color: rgb(208, 209, 211);
+    background-color: rgb(248, 248, 248);
+}
+.Icon-container {
+    font-size: 20px;
+    display: flex;
+    color: black;
+}
+.text-container {
+    width: calc(100% - 64px);
+    text-align: center;
+    font-size: 15px;
+    display: block;
+    white-space: nowrap;
+}
+.policy-comfim-tips {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: rgb(255, 255, 255);
+    padding: 16px 30px;
+    margin-bottom: unset;
+}
+.tips-text {
+    color: rgba(22, 24, 35, 0.5);
+    font-size: 12px;
+    line-height: 15px;
+    width: 337px;
+    text-align: center;
+}
+.text-link {
+    color: rgba(22, 24, 35, 0.8);
+    font-weight: 600;
+    font-size: 12px;
+}
+.bottom-container {
+    width: 438px;
+    height: 64px;
+    font-size: 15px;
+    line-height: 18px;
+    color: rgb(22, 24, 35);
+    border-top: 0.5px solid rgba(22, 24, 35, 0.12);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+}
+.alink {
+    color: rgb(254, 44, 85);
+    font-weight: 600;
+    font-size: 15px;
+    padding-left: 5px;
+}
+.close-iner-btn {
+    width: 24px;
+    height: 24px;
+    position: absolute;
+    top: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    right: 24px;
+    background: rgba(22, 24, 35, 0.03);
+    transform: scale(1.7);
+    cursor: pointer;
+}

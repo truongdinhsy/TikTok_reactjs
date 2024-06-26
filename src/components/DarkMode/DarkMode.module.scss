@@ -1,0 +1,35 @@
+.btn-darkmode {
+    font-size: 16px;
+    line-height: 21px;
+    border: none;
+    background: none;
+    padding: 0;
+    position: relative;
+    overflow: visible;
+    outline: none;
+    display: inline-flex;
+    -webkit-box-align: center;
+    color: rgba(255, 255, 255, 0.9);
+    cursor: pointer;
+}
+.darkmode {
+    width: 44px;
+    height: 22px;
+    border-radius: 100px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}
+.switch-icon {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-box-align: center;
+    -webkit-box-pack: center;
+    width: 20px;
+    height: 20px;
+    top: 1px;
+    border-radius: 100px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 1px 2px;
+    transition: all 0.4s cubic-bezier(0.075, 0.82, 0.165, 1) 0s;
+}

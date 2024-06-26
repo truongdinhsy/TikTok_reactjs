@@ -1,0 +1,21 @@
+.Wrappe {
+    width: 100%;
+    border-radius: 5px;
+
+    max-height: min(-156px + 100vh, 760px);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    display: flex;
+    flex-direction: column;
+}
+.sidebar {
+    max-height: 200px;
+    border-radius: 5px;
+    max-height: min(-156px + 100vh, 760px);
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.12) 0px 2px 12px;
+    display: flex;
+    flex-direction: column;
+    padding: 15px 16px 20px;
+    margin-left: 10px;
+}

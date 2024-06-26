@@ -1,0 +1,64 @@
+//btn Get App
+.bottom-container {
+    right: 24px;
+    position: fixed;
+    z-index: 7;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 50px;
+    bottom: 0px;
+    align-items: flex-end;
+    transform: translateY(40px);
+    transition: all 400ms cubic-bezier(0.65, 0, 0.35, 1) 0s;
+}
+.promotion-container {
+    margin-bottom: 12px;
+    display: flex;
+    position: relative;
+}
+
+// render GetApp
+
+.expand-container {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    position: relative;
+    bottom: -1px;
+    background: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+    border: 1px solid rgba(22, 24, 35, 0.03);
+    border-radius: 8px;
+    transform-origin: right bottom;
+    transform: none;
+    right: -1px;
+}
+.X-mark-wrpper {
+    right: 16px;
+    position: absolute;
+    top: 16px;
+    cursor: pointer;
+}
+.expand-wrapper {
+    margin-left: 16px;
+    margin-right: 48px;
+}
+.item-container {
+    margin: 6px 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 8px;
+    cursor: pointer;
+}
+.span-text {
+    margin-left: 6px;
+    white-space: nowrap;
+}
+.split {
+    height: 1px;
+    width: calc(100% - 16px);
+    position: relative;
+    background: rgba(22, 24, 35, 0.12);
+    transform: scaleY(0.5);
+    left: 8px;
+}

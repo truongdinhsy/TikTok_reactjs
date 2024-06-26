@@ -1,0 +1,102 @@
+.primary {
+    min-width: 110px;
+    background-color: rgb(254, 44, 85);
+    color: rgb(255, 255, 255);
+}
+.primary:hover {
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.06), rgba(0, 0, 0, 0.06)), rgb(254, 44, 85);
+}
+
+.wraper {
+    max-height: 36px;
+    min-width: 96px;
+    margin-left: 16px;
+    border: 1px solid transparent;
+    padding: 6px 8px;
+    font-weight: 600;
+    line-height: 21px;
+    font-size: 16px;
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -webkit-app-region: no-drag;
+    cursor: pointer;
+    user-select: none;
+    white-space: nowrap;
+}
+
+//button upload
+
+.btntext {
+    min-width: 110px;
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    border-radius: 4px;
+    background: rgb(255, 255, 255);
+}
+.btntext:hover {
+    background-color: rgba(22, 24, 35, 0.03);
+}
+
+//btn install
+.btnboder {
+    color: rgba(22, 24, 35, 0.75);
+    border: 1px solid rgba(22, 24, 35, 0.12);
+    background: none rgb(255, 255, 255);
+    outline: none;
+    font-weight: 700;
+    font-size: 14px;
+    position: relative;
+    bottom: 0;
+    right: 0;
+    padding: 0 8px;
+    border-radius: 52px;
+    min-width: 90px;
+    box-shadow: rgba(0, 0, 0, 0.06) 0px 2px 8px;
+    white-space: nowrap;
+    text-align: center;
+    transition: transform 0.3s cubic-bezier(0.4, 0.14, 0.3, 1) 0s;
+    transform-origin: right bottom;
+    transform: none;
+    min-height: 32px;
+    &:hover {
+        border-color: rgba(22, 24, 35, 0.2);
+        background-color: rgb(255, 255, 255);
+    }
+}
+.LinkMobile {
+    padding: 0;
+    width: 138px;
+    height: 40px;
+    overflow: hidden;
+    margin-left: 0;
+    margin-bottom: 8px;
+}
+.bigger {
+    border-width: 1px;
+    border-style: solid;
+    border-radius: 4px;
+    color: rgb(254, 44, 85);
+    background-color: rgb(255, 255, 255);
+    border-color: rgb(254, 44, 85);
+    min-width: 168px;
+    min-height: 48px;
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: 600;
+    display: flex;
+    position: relative;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    user-select: none;
+    cursor: pointer;
+    box-sizing: border-box;
+    margin-top: 20px;
+    width: 100%;
+    margin-left: 0;
+    &:hover {
+        background-color: rgba(254, 44, 85, 0.06);
+    }
+}

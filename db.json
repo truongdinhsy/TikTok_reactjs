@@ -1,0 +1,16 @@
+{
+    "video": [{ "id": "1", "title": "a title", "decription": "a decription", "user-id": 1, "views": 100, "like": 100 }],
+    "trent": [
+        { "id": "1", "name": "Đây là trent 1 ", "viewSearch": 1000, "istrent": true },
+        { "id": "2", "name": "Đây là trent 2", "viewSearch": 100, "istrent": true },
+        { "id": "3", "name": "Đây là trent 3", "viewSearch": 500, "istrent": true },
+        { "id": "4", "name": "Đây là trent 4", "viewSearch": 600, "istrent": true },
+        { "id": "5", "name": "Đây là trent 5", "viewSearch": 400, "istrent": true },
+        { "id": "6", "name": "Đây là trent 6", "viewSearch": 400, "istrent": false },
+        { "id": "7", "name": "Đây là trent 7", "viewSearch": 400, "istrent": false },
+        { "id": "8", "name": "Đây là trent 8", "viewSearch": 400, "istrent": false }
+    ],
+    "profile": {
+        "name": "typicode"
+    }
+}
