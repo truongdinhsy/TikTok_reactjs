@@ -27,6 +27,7 @@ ul {
 }
 a {
     text-decoration: none;
+    color: #000000;
 }
 
 html *::-webkit-scrollbar {
@@ -56,4 +57,16 @@ html ::-webkit-scrollbar-thumb {
 }
 h2 {
     margin: 0;
+}
+.nav {
+    display: block;
+    unicode-bidi: isolate;
+}
+.div {
+    display: block;
+    unicode-bidi: isolate;
+}
+.canvas {
+    overflow-clip-margin: content-box;
+    overflow: clip;
 }

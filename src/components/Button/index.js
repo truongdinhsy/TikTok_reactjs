@@ -11,11 +11,13 @@ function Button({
     btnboder = false,
     LinkMobile = false,
     bigger = false,
+    tagNew = false,
     onClick,
 
     ...Passprops
 }) {
     let Comp = "button";
+
     const props = {
         onClick,
         ...Passprops,
@@ -26,6 +28,7 @@ function Button({
         btnboder,
         LinkMobile,
         bigger,
+        tagNew,
     });
     if (to) {
         props.to = to;
@@ -35,7 +38,7 @@ function Button({
         Comp = "a";
     }
     return (
-        <Comp type="button" className={cn(classes)} {...props}>
+        <Comp type={Comp} className={cn(classes)} {...props}>
             {children}
         </Comp>
     );

@@ -8,7 +8,7 @@
 }
 
 .wraper {
-    max-height: 36px;
+    min-height: 36px;
     min-width: 96px;
     margin-left: 16px;
     border: 1px solid transparent;
@@ -70,7 +70,8 @@
     height: 40px;
     overflow: hidden;
     margin-left: 0;
-    margin-bottom: 8px;
+    margin: 8px 4px;
+    border: 1px solid #ffffff;
 }
 .bigger {
     border-width: 1px;
@@ -98,5 +99,23 @@
     margin-left: 0;
     &:hover {
         background-color: rgba(254, 44, 85, 0.06);
+    }
+}
+.tagNew {
+    border: 1px solid #36d1cc;
+    background-color: #ffffff;
+    color: #36d1cc;
+    margin-left: 0;
+    margin-right: 15px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    transition: all 200ms ease;
+    display: initial;
+}
+
+@media (max-width: 991px) {
+    .tagNew {
+        font-size: 14px;
+        line-height: 28px;
     }
 }

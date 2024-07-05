@@ -1,0 +1,18 @@
+.headercontent {
+    margin-top: 32px;
+    color: rgba(22, 24, 35, 0.4);
+}
+.title-content {
+    font-size: 14px;
+}
+.footercontent {
+    -webkit-flex: 1 1 0%;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    max-width: 226px;
+    padding-right: 8px;
+    color: #ffffff;
+}
+.footercontent .h5 .a {
+    color: #cccccc;
+}

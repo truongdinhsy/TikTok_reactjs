@@ -1,14 +1,11 @@
-import Header from "../Components/Header";
+import classNames from "classnames/bind";
+import styles from "./HeaderOnly.module.scss";
 
-function DefaultLayout({ children }) {
-    return (
-        <div>
-            <Header />
-            <div className="container">
-                <div className="content">{children}</div>
-            </div>
-        </div>
-    );
+const cn = classNames.bind(styles);
+
+function DefaultLayout({ children, aboutpage = false }) {
+    const classes = cn("wrapper", { aboutpage });
+    return <header className={cn(classes)}>{children}</header>;
 }
 
 export default DefaultLayout;

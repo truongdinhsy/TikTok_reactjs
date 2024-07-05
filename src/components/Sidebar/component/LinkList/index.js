@@ -12,8 +12,8 @@ function LinkList() {
             id: 1,
             title: "Công ty",
             listname: [
-                { idName: 1, name: "Giới thiệu", hreft: "#" },
-                { idName: 2, name: "bản tin", hreft: "#" },
+                { idName: 1, name: "Giới thiệu", hreft: "/about" },
+                { idName: 2, name: "bản tin", hreft: "/newroom" },
                 { idName: 3, name: "Liên hệ", hreft: "#" },
                 { idName: 4, name: "sự nghiệp", hreft: "#" },
             ],

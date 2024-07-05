@@ -7,6 +7,7 @@ export const UserProvider = ({ children }) => {
     const [isLoginModalOpen, setIsLoginModalOpen] = useState(false);
     const [isClick, setClick] = useState(false);
     const [isClickMobile, setClickMobile] = useState(false);
+    const [isClickQr, setClickQr] = useState(false);
 
     return (
         <UserContext.Provider
@@ -19,6 +20,8 @@ export const UserProvider = ({ children }) => {
                 setClick,
                 isClickMobile,
                 setClickMobile,
+                isClickQr,
+                setClickQr,
             }}
         >
             {children}
