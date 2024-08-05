@@ -1,0 +1,111 @@
+//video
+.homepage-video-wrap {
+    height: 100vh;
+    overflow: hidden;
+    text-align: center;
+    position: relative;
+    background-image: url(//sf-tb-sg.ibytedtos.com/obj/ttfe-malisg/Helo/TikTok/home-video-poster.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.homepage-video-wrap .video-react {
+    position: unset;
+    background-color: #fff;
+}
+.video-react .video-react-fluid {
+    width: 100%;
+    max-width: 100%;
+    height: 0;
+}
+.video-react {
+    display: block;
+    vertical-align: top;
+    box-sizing: border-box;
+    color: #fff;
+    background-color: #000;
+    position: relative;
+    font-size: 10px;
+    line-height: 1;
+    font-family: serif, Times, "Times New Roman";
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.video-react .video-react-video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.homepage-video-wrap video {
+    width: 100%;
+    -o-object-fit: fill;
+    object-fit: fill;
+}
+.video-react-spiner {
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+    opacity: 0.85;
+    text-align: left;
+    border: 6px solid rgba(43, 51, 63, 0.7);
+    box-sizing: border-box;
+    background-clip: padding-box;
+    width: 50px;
+    height: 50px;
+    border-radius: 25px;
+}
+
+.video-react .video-react-spiner::after {
+    border-top-color: white;
+    -webkit-animation-delay: 0.44s;
+    animation-delay: 0.54s;
+}
+.video-react .video-react-spiner::before {
+    border-top-color: white;
+}
+.video-react-spiner::after,
+.video-react-spiner::before {
+    content: "";
+    position: absolute;
+    margin: -6px;
+    box-sizing: inherit;
+    width: inherit;
+    height: inherit;
+    border-radius: inherit;
+    opacity: 1;
+    border: inherit;
+    border-color: transparent;
+    border-top-color: white;
+    -webkit-animation: video-react-spiner 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite,
+        video-react-spinner-fade 1.1s linear infinite;
+    animation: video-react-spiner 1.1s cubic-bezier(0.6, 0.2, 0, 0.8) infinite,
+        video-react-spinner-fade 1.1s linear infinite;
+}
+@keyframes video-react-spiner {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@keyframes video-react-spinner-fade {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+@media screen and (max-width: 1200px) {
+    .homepage-video-wrap video {
+        -o-object-fit: cover;
+        object-fit: cover;
+    }
+}

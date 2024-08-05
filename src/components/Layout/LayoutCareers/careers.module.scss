@@ -1,0 +1,19 @@
+#careers {
+    min-width: 1060px;
+    overflow-x: auto;
+}
+
+#careers > .layout {
+    display: block;
+}
+
+.layout {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex: auto;
+    flex: auto;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-height: 0;
+    background: #fff;
+}

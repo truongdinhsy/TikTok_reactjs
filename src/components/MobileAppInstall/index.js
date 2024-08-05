@@ -12,18 +12,22 @@ const cn = classNames.bind(styles);
 function MobileAppInstall() {
     const dowloadMobile = [
         {
+            name: "microsoft",
             href: "https://www.microsoft.com/store/apps/9NH2GPH4JZS4",
             img: "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/f1596f39e85631c052c4.png",
         },
         {
+            name: "apple",
             href: "https://www.tiktok.com/download-link/af/id1235601864",
             img: "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/d60c66b9f5dc9647f3a3.png",
         },
         {
+            name: "amazon",
             href: "https://www.amazon.com/dp/B07KR1RJL2/",
             img: "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/d60c66b9f5dc9647f3a3.png",
         },
         {
+            name: "android",
             href: "https://www.tiktok.com/download-link/af/com.ss.android.ugc.trill",
             img: "https://sf16-website-login.neutral.ttwstatic.com/obj/tiktok_web_login_static/tiktok/webapp/main/webapp-desktop/d60c66b9f5dc9647f3a3.png",
         },

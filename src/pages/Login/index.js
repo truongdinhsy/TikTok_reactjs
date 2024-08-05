@@ -1,9 +1,9 @@
 import classNames from "classnames/bind";
 import styles from "./login.module.scss";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faQrcode, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { faUser } from "@fortawesome/free-regular-svg-icons";
-import { faApple, faFacebook, faGoogle, faLine, faTwitter } from "@fortawesome/free-brands-svg-icons";
+import { faXmark } from "@fortawesome/free-solid-svg-icons";
+
+import Icon from "~/acess/svg";
 
 import { useUser } from "~/context/UserContext";
 import ModalContainer from "~/components/ModalContainer";
@@ -26,57 +26,43 @@ function Login() {
                             <div className={cn("login-ottion-container")}>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faQrcode} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.QRIcon}</div>
                                         <div className={cn("text-container")}>Sử dụng mã QR</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faUser} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.User}</div>
                                         <div className={cn("text-container")}>Số điện thoại / Emal / Tiktok ID</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faFacebook} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.FaceBook}</div>
                                         <div className={cn("text-container")}>Tiếp tục với FaceBook</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faGoogle} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.Google}</div>
                                         <div className={cn("text-container")}>Tiếp tục với Google</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faTwitter} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.Twitter}</div>
                                         <div className={cn("text-container")}>Tiếp tục với Twitter</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faLine} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.Line}</div>
                                         <div className={cn("text-container")}>Tiếp tục với Line</div>
                                     </div>
                                 </div>
                                 <div>
                                     <div className={cn("box-container")}>
-                                        <div className={cn("Icon-container")}>
-                                            <FontAwesomeIcon icon={faApple} />
-                                        </div>
+                                        <div className={cn("Icon-container")}>{Icon.Apple}</div>
                                         <div className={cn("text-container")}>Tiếp tục với Apple</div>
                                     </div>
                                 </div>
@@ -109,7 +95,7 @@ function Login() {
                 </div>
 
                 <div onClick={handleClose} className={cn("close-iner-btn")}>
-                    <FontAwesomeIcon icon={faXmark} />
+                    {Icon.Close}
                 </div>
             </div>
         </ModalContainer>

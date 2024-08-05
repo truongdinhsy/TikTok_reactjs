@@ -6,7 +6,7 @@ const cn = classNames.bind(styles);
 
 function About() {
     return (
-        <div className={cn("main-body")}>
+        <div className={cn(" container main-body")}>
             <div>
                 <div className={cn("content")}>
                     <section className={cn("about-mobile-title")}>

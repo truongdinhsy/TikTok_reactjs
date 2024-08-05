@@ -10,7 +10,7 @@ import NewroomItem from "~/components/newroomItem";
 
 const cn = classNames.bind(styles);
 
-function NewroomContainer() {
+function NewroomContainer({ item }) {
     const laguageOptions = [
         {
             value: "vi",
@@ -86,16 +86,7 @@ function NewroomContainer() {
             </aside>
 
             <div className={cn("newrom-list-wrapper")}>
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
-                <NewroomItem />
+                <NewroomItem item={item} />
             </div>
         </div>
     );

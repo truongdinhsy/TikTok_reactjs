@@ -1,5 +1,5 @@
 import Header from "./header/index";
-import Footer from "./footer/index";
+import Footer from "~/components/Layout/Components/footer";
 
 function DefaultLayoutLink({ children }) {
     return (

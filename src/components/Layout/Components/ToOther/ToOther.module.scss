@@ -1,0 +1,35 @@
+.a-link {
+    -webkit-box-direction: none;
+    background-color: transparent;
+    font-size: 16px;
+    position: relative;
+    font-weight: 500;
+    cursor: pointer;
+}
+.content_column {
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 28px;
+    margin: 0;
+}
+.text {
+    color: #cccccc;
+    font-size: 14px;
+}
+.text:hover {
+    display: inline;
+    padding-bottom: 1px;
+    border-bottom: solid 2px #cccccc;
+}
+@media (max-width: 991px) {
+    .title {
+        font-size: 16px;
+        font-weight: 500;
+    }
+    .title_pri {
+        line-height: 45px;
+    }
+    .content_column {
+        line-height: 28px;
+    }
+}

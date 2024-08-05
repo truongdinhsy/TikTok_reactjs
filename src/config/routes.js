@@ -6,6 +6,8 @@ const Routes = {
     search: "/search",
     about: "/about",
     newroom: "/newroom",
+    contact: "/contact",
+    careers: "/careers",
 };
 
 export default Routes;

@@ -1,0 +1,123 @@
+.contact-container {
+    padding-bottom: 100px;
+}
+
+.contact-container h1 {
+    font-size: 57px;
+    line-height: 1;
+    margin: 64px 0;
+    text-align: center;
+}
+.contact-wrapper {
+    width: 916px;
+    background: #ffffff;
+    margin: auto;
+    box-shadow: 2px 4px 20px rgba(34, 90, 89, 0.2);
+    border-radius: 8px;
+}
+.contact-row {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: row;
+    flex-direction: row;
+}
+.contact-card {
+    -webkit-flex: 1 1 0%;
+    -ms-flex: 1 1 0%;
+    flex: 1 1 0%;
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-flex-direction: row;
+    -ms-flex-direction: row;
+    flex-direction: row;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 0 30px;
+    height: 130px;
+    border-bottom: 1px solid #dcdcde;
+}
+.contact-desc p {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.support .contact-desc p {
+    font-size: 33px;
+}
+
+.contact-desc p strong {
+    font-weight: normal;
+}
+.support {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    text-align: center;
+}
+.contact-desc a {
+    font-size: 16px;
+    line-height: 22px;
+    color: #fe2c55;
+}
+
+.contact-card img {
+    margin-right: 30px;
+    width: 55px;
+}
+
+.support img {
+    display: none;
+}
+.contact-row:last-child .contact-card {
+    border-bottom: none;
+}
+
+@media (max-width: 991px) {
+    .contact-wrapper {
+        width: 100%;
+    }
+    .contact-row {
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+    }
+    .contact-card {
+        height: auto;
+        -webkit-flex: 0 0 auto;
+        -ms-flex: 0 0 auto;
+        flex: 0 0 auto;
+        -webkit-flex-direction: column;
+        -ms-flex-direction: column;
+        flex-direction: column;
+        text-align: center;
+        padding: 35px 0 50px;
+    }
+    .support img {
+        display: inline;
+    }
+    .contact-card img {
+        width: 40px;
+        margin-right: 0;
+        margin-bottom: 18px;
+    }
+    .contact-desc {
+        -webkit-align-self: center;
+        -ms-flex-item-align: center;
+        align-self: center;
+        padding: 0 20px;
+    }
+
+    .contact-desc p {
+        font-size: 22px;
+        line-height: 26px;
+    }
+    .contact-desc a {
+        line-height: 26px;
+    }
+}

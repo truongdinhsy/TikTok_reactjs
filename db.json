@@ -1,16 +1,1753 @@
 {
-    "video": [{ "id": "1", "title": "a title", "decription": "a decription", "user-id": 1, "views": 100, "like": 100 }],
+    "video": [
+        {
+            "id": "1",
+            "title": "a title",
+            "decription": "a decription",
+            "user-id": 1,
+            "views": 100,
+            "like": 100
+        }
+    ],
     "trent": [
-        { "id": "1", "name": "Đây là trent 1 ", "viewSearch": 1000, "istrent": true },
-        { "id": "2", "name": "Đây là trent 2", "viewSearch": 100, "istrent": true },
-        { "id": "3", "name": "Đây là trent 3", "viewSearch": 500, "istrent": true },
-        { "id": "4", "name": "Đây là trent 4", "viewSearch": 600, "istrent": true },
-        { "id": "5", "name": "Đây là trent 5", "viewSearch": 400, "istrent": true },
-        { "id": "6", "name": "Đây là trent 6", "viewSearch": 400, "istrent": false },
-        { "id": "7", "name": "Đây là trent 7", "viewSearch": 400, "istrent": false },
-        { "id": "8", "name": "Đây là trent 8", "viewSearch": 400, "istrent": false }
+        {
+            "id": "1",
+            "name": "Đây là trent 1 ",
+            "viewSearch": 1000,
+            "istrent": true
+        },
+        {
+            "id": "2",
+            "name": "Đây là trent 2",
+            "viewSearch": 100,
+            "istrent": true
+        },
+        {
+            "id": "3",
+            "name": "Đây là trent 3",
+            "viewSearch": 500,
+            "istrent": true
+        },
+        {
+            "id": "4",
+            "name": "Đây là trent 4",
+            "viewSearch": 600,
+            "istrent": false
+        },
+        {
+            "id": "5",
+            "name": "Đây là trent 5",
+            "viewSearch": 400,
+            "istrent": true
+        },
+        {
+            "id": "6",
+            "name": "Đây là trent 6",
+            "viewSearch": 400,
+            "istrent": true
+        },
+        {
+            "id": "7",
+            "name": "Đây là trent 7",
+            "viewSearch": 400,
+            "istrent": false
+        },
+        {
+            "id": "8",
+            "name": "Đây là trent 8",
+            "viewSearch": 400,
+            "istrent": false
+        }
     ],
     "profile": {
         "name": "typicode"
-    }
+    },
+    "newroomItem": [
+        {
+            "id": "1",
+            "groups": "News",
+            "item": [
+                {
+                    "id": 1,
+                    "group": "News",
+                    "timeDate": "13 thg 4,2024",
+                    "title": "Chiến dịch #BookTok trở lại với nhiều hoạt động mới lạ, chào đón Ngày Sách và văn hóa đọc Việt Nam 2024",
+                    "banner": true,
+                    "content": [
+                        {
+                            "type": "text1",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text1",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text1",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/61c0499ab99a5b656bc4581fde7e1c0e.png"
+                },
+                {
+                    "id": 2,
+                    "group": "News",
+                    "timeDate": "22 thg 5, 2024",
+                    "title": "Chung tay thúc đẩy những thay đổi tích cực với chương trình Change Makers tại Đông Nam Á",
+                    "banner": false,
+                    "content": [
+                        {
+                            "type": "text",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/48480b29d70ef1171e010437bea18f3a.png"
+                },
+                {
+                    "id": 3,
+                    "group": "News",
+                    "timeDate": "18 thg 3, 2024",
+                    "title": "Định hình kỷ nguyên mới của các trò chơi di động cùng TikTok: Những chiến lược đi đến thành công",
+                    "banner": false,
+                    "content": [
+                        {
+                            "type": "text",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/48480b29d70ef1171e010437bea18f3a.png"
+                },
+                {
+                    "id": 4,
+                    "group": "News",
+                    "timeDate": "14 thg 3, 2024",
+                    "title": "TikTok Advertising Awards - Giải thưởng đầu tiên của TikTok dành cho cộng đồng quảng cáo",
+                    "banner": false,
+                    "content": [
+                        {
+                            "type": "text",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/48480b29d70ef1171e010437bea18f3a.png"
+                },
+                {
+                    "id": 5,
+                    "group": "News",
+                    "timeDate": "6 thg 3, 2024",
+                    "title": "#TikTokShortFilm trở lại, quy tụ cộng đồng làm phim tài năng tại Việt Nam và trên toàn thế giới",
+                    "banner": false,
+                    "content": [
+                        {
+                            "type": "text",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/48480b29d70ef1171e010437bea18f3a.png"
+                },
+                {
+                    "id": 6,
+                    "group": "News",
+                    "timeDate": "6 thg 3, 2024",
+                    "title": "Hơn 2,8 triệu doanh nghiệp vừa, nhỏ và siêu nhỏ trên nền tảng, TikTok tăng cường hoạt động hỗ trợ doanh nghiệp dịp Tết Giáp Thìn 2024 với 'TETastic with TikTok - Khởi sắc Doanh số'",
+                    "banner": false,
+                    "content": [
+                        {
+                            "type": "text",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/48480b29d70ef1171e010437bea18f3a.png"
+                },
+                {
+                    "id": 7,
+                    "group": "News",
+                    "timeDate": "4 thg 3, 2024",
+                    "title": "Lời cảm ơn gởi đến Cộng đồng nhà sáng tạo nội dung của chúng tôi",
+                    "banner": false,
+                    "content": [
+                        {
+                            "type": "text",
+                            "paragraph": 1,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 2,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 3,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua những tựa sách yêu thích."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 4,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/6957b7c1ac91f1b90e81362a6d065205.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 5,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Phát động với quy mô toàn cầu, #BookTok nhanh chóng thu hút cộng đồng các nhà sáng tạo nội dung, tác giả và độc giả có chung niềm đam mê với sách truyện và văn học trên khắp thế giới. Tại Việt Nam, trong lần đầu khởi động, #BookTok đã thu về"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " 2,5 tỷ lượt xem"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "834 nghìn bài đăng tải "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ". Theo ước tính, chiến dịch có hơn "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "11 triệu lượt xem "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "và"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "3.000 video mới trung bình mỗi ngày"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": ", xoay quanh những nội dung đầy thú vị từ review sách, tóm tắt các tựa sách nổi tiếng hay chia sẻ kinh nghiệm viết."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 6,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong năm 2023, với mong muốn đồng hành và đẩy mạnh sự phát triển của thị trường sách tại Việt Nam, vào tháng 11/2023, TikTok cùng Hội Xuất bản Việt Nam ký kết thỏa thuận hợp tác triển khai Ngày #BookTok định kỳ mỗi tháng. Trong đó, có thể kể đến các hoạt động nổi bật đã được thực hiện như Tủ sách Trending #BookTok tại hệ thống các nhà sách lớn trên cả nước; thực hiện 03 buổi đào tạo cho 182 nhà sách, nhà bán hàng, nhà sáng tạo nội dung về chính sách quyền sở hữu trí tuệ, cách xây dựng nội dung trên nền tảng, cách tạo lập cửa hàng; hỗ trợ 48 Nhà xuất bản tham gia và tìm hiểu các công cụ để bán hàng hiệu quả trên TikTok Shop; tổ chức các chiến dịch dành riêng cho ngành hàng Sách trên TikTok Shop vào ngày 21 hàng tháng..."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 7,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Năm 2024, TikTok tiếp tục tăng cường hợp tác với Hội Xuất bản Việt Nam và kết nối với Sở Thông tin & Truyền thông TP.HCM để mở rộng phạm vi hoạt động của chiến dịch #BookTok, qua đó thúc đẩy sự gắn kết giữa các nhà sáng tạo nội dung, tác giả và độc giả khắp cả nước. Cụ thể, #BookTok 2024 đã mở màn với hai chương trình hội thảo Hướng dẫn bán hàng dành cho Nhà xuất bản Sách TikTok Shop Việt Nam diễn ra tại Thành phố Hồ Chí Minh và Hà Nội. Buổi hội thảo có sự tham gia của "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "122 đơn vị"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "nhà xuất bản, nhà phát hành, đơn vị phân phối sách, cùng đi qua nhiều nội dung chuyên sâu và chia sẻ thực tiễn đã giúp cho các đơn vị trang bị thêm các kỹ năng chuyển đối số và kinh doanh trên nền tảng thương mại điện tử thiết thực."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 8,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đặc biệt, từ ngày 17/4/2024 đến ngày 1/5/2024, TikTok sẽ phối hợp cùng Sở Thông tin & Truyền thông TP.HCM trong các hoạt động chào đón Ngày Sách và Văn hóa đọc Việt Nam (21/4). Hoạt động hứa hẹn sẽ mang đến"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": " hơn 100 phiên livestream"
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "của các cửa hàng, nhà sách tại Đường Sách Nguyễn Văn Bình TP. Hồ Chí Minh."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 9,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/18cf0a57547926f55c10059110cf9e5f.png"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 10,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Đội ngũ Chính sách Quyền Sở hữu trí tuệ của TikTok (IPR) sẽ góp mặt trong các phiên livestream của cộng đồng nhà xuất bản để chia sẻ những nội dung bổ ích liên quan đến Chính sách Quyền Sở hữu trí tuệ (IPR), Trung tâm Bảo vệ Quyền sở hữu trí tuệ (IPPC) trên TikTok Shop để các chủ sở hữu bản quyền, tác giả, nhà xuất bản, nhà phát hành có thể chủ động tiếp cận, nâng cao quản trị và phát triển kênh bán hàng tốt hơn. Lễ bế mạc sự kiện vào tối ngày 22/4 cũng sẽ tổ chức buổi hội thảo "
+                                },
+                                {
+                                    "type": "title",
+                                    "value": "Sách nói - âm thanh của tri thức, chuyển đổi số trong lĩnh vực xuất bản và phát hành sách"
+                                },
+                                {
+                                    "type": "text",
+                                    "value": " với sự tham gia của đại diện TikTok Việt Nam và cộng đồng nhà sáng tạo nội dung nhằm mang đến thêm những góc nhìn về cơ hội chuyển đổi số trong lĩnh vực xuất bản."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 11,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Trong giai đoạn này, Đội ngũ TikTok Shop sẽ tập trung hỗ trợ các đơn vị phát hành sách gia nhập nền tảng thương mại điện tử, hướng dẫn các kỹ năng về truyền thông, vận hành, quản lý đơn hàng, góp phần đẩy mạnh tiêu thụ sách, cải thiện doanh số và tung hàng loạt voucher, khuyến mãi độc quyền để người dùng yên tâm mua đọc những tựa sách yêu thích. Đồng thời, TikTok cũng đã tái khởi động hashtag #BookTok, cho ra mắt video chủ đề được thực hiện bởi nhà sáng tạo nội dung Giao Cùn nhằm khuyến khích cộng đồng tham gia sáng tạo, chia sẻ, lan tỏa sâu rộng kiến thức hữu ích, niềm đam mê và văn học đến đa thế hệ."
+                                }
+                            ]
+                        },
+                        {
+                            "type": "img",
+                            "paragraph": 12,
+                            "content": [
+                                {
+                                    "type": "img",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 13,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "TikTok tái khởi động hashtag #BookTok cùng nhiều hoạt động hấp dẫn từ ngày 14 đến 30/4/2024. Xem thêm video quảng bá #BookTok được thực hiện bởi nhà sáng tạo nội dung Giao Cùn tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://www.tiktok.com/@tiktok_edutokvn/video/7356527428929342736"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 14,
+                            "content": [
+                                {
+                                    "type": "title",
+                                    "value": "Ông Nguyễn Lâm Thanh, đại diện TikTok Việt Nam "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": ", chia sẻ: "
+                                },
+                                {
+                                    "type": "text",
+                                    "value": "Không chỉ dừng lại ở những giá trị giải trí, chúng tôi luôn nỗ lực tạo ra ảnh hưởng tích cực đến mọi khía cạnh cuộc sống từ thể thao, du lịch đến nghệ thuật hay văn học. Phát huy những thành công từ chiến dịch #BookTok toàn cầu, tại Việt Nam, TikTok đặt mục tiêu lan toả văn hóa đọc cũng như mở ra cơ hội tiềm năng cho ngành xuất bản. TikTok sẽ phối hợp chặt chẽ với nhiều cơ quan, tổ chức như Hội Xuất bản Việt Nam; Sở Thông tin & Truyền thông TP.HCM để tăng cường các sáng kiến hữu ích hơn nữa, chung tay tạo điều kiện phát triển cho cộng đồng tác giả, kết nối độc giả và gia tăng doanh số cho những đơn vị phát hành. "
+                                }
+                            ]
+                        },
+                        {
+                            "type": "text",
+                            "paragraph": 15,
+                            "content": [
+                                {
+                                    "type": "text",
+                                    "value": "Để tìm hiểu và cập nhật những nội dung mới nhất từ #BookTok 2024, cộng đồng yêu sách khắp cả nước có thể tìm kiếm ngay tại "
+                                },
+                                {
+                                    "type": "href",
+                                    "value": "https://activity.tiktok.com/magic/eco/runtime/release/6618bac428345e0276ba5996?appType=tiktok&magic_page_no=1&lang=en&region=Default&use_spark=1"
+                                }
+                            ]
+                        }
+                    ],
+                    "Background": "https://p16-tiktokcdn-com.akamaized.net/obj/tiktok-obj/48480b29d70ef1171e010437bea18f3a.png"
+                }
+            ]
+        }
+    ]
 }

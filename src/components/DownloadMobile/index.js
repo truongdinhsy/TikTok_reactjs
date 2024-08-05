@@ -27,7 +27,7 @@ function DownloadMobile({ title = "", mobilemodal, m_f_container, aboutbottom = 
                                 style={
                                     item.name === "amazon"
                                         ? { backgroundPosition: "0px -2px" }
-                                        : index === 2
+                                        : item.name === "apple"
                                         ? { backgroundPosition: "-1px -45px" }
                                         : { backgroundPosition: "-1px -87px" }
                                 }
